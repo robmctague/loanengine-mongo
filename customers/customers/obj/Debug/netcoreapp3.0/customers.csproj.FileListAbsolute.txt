@@ -1,0 +1,5 @@
+C:\Users\Robert.000\Documents\GitHub\loanengine-mongo\customers\customers\bin\Debug\netcoreapp3.0\customers.deps.json
+C:\Users\Robert.000\Documents\GitHub\loanengine-mongo\customers\customers\bin\Debug\netcoreapp3.0\customers.dll
+C:\Users\Robert.000\Documents\GitHub\loanengine-mongo\customers\customers\obj\Debug\netcoreapp3.0\customers.csprojAssemblyReference.cache
+C:\Users\Robert.000\Documents\GitHub\loanengine-mongo\customers\customers\obj\Debug\netcoreapp3.0\customers.AssemblyInfoInputs.cache
+C:\Users\Robert.000\Documents\GitHub\loanengine-mongo\customers\customers\obj\Debug\netcoreapp3.0\customers.AssemblyInfo.cs
