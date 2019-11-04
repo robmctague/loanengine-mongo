@@ -6,7 +6,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace customers.Models
 {
-    public class customer
+    public class Customer
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
@@ -20,6 +20,18 @@ namespace customers.Models
 
         public DateTime DOB { get; set; }
 
+        List<Address> AddressLst = new List<Address>();
 
+        public List<Address> GetAddresses
+        {
+            get
+            {
+                return AddressLst;
+            }
+            set
+            {
+                AddressLst = value;
+            }
+        }
     }
 }

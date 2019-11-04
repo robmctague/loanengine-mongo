@@ -6,7 +6,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace customers.Models
 {
-    public class address
+    public class Address
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
@@ -24,7 +24,7 @@ namespace customers.Models
 
         public string AddressType { get; set; }
 
-        public address(string AddressLine1)
+        public Address(string AddressLine1)
         {
             this.AddressLine1 = AddressLine1;
         }
